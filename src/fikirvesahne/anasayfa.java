@@ -132,7 +132,7 @@ public class anasayfa extends JFrame {
 		
 		ImageIcon image = new ImageIcon("/Users/suha/Downloads/e9b1c5172088549.647900f750927-3.jpg");
 		RoundedImageLabel lblNewLabel_3 = new RoundedImageLabel(image);
-		lblNewLabel_3.setBounds(6, 124, 388, 361);
+		lblNewLabel_3.setBounds(6, 320, 380, 165);
 		lblNewLabel_3.setArc(40, 40); // Köşe ovali burada belirleniyor
 		contentPane.add(lblNewLabel_3);
 		lblNewLabel_3.setBounds(6, 124, 380, 361);

@@ -58,6 +58,9 @@ public class LoginGui extends JFrame {
 		login_signup.setFont(new Font("Helvetica", Font.PLAIN, 13));
 		login_signup.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+					Login_ loginFrame = new Login_();
+					loginFrame.setVisible(true);
+					dispose();
 			}
 		});
 		login_signup.setBounds(146, 466, 100, 100);
@@ -94,7 +97,7 @@ public class LoginGui extends JFrame {
 		
 		JLabel lblNewLabel_3 = new JLabel("New label");
 		lblNewLabel_3.setIcon(new ImageIcon("/Users/suha/Downloads/IMG_0335-2.jpg"));
-		lblNewLabel_3.setBounds(41, 91, 307, 247);
+		lblNewLabel_3.setBounds(36, 81, 307, 247);
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel setting = new JLabel("");
