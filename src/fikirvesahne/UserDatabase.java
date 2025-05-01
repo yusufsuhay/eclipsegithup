@@ -7,7 +7,7 @@ public class UserDatabase {
     private static HashMap<String, User> users = new HashMap<>();
     private static final String FILE_PATH = "users.dat";
 
-    // Kullanıcı verilerini dosyaya kaydetme
+    
     private static void saveUsers() {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FILE_PATH))) {
             oos.writeObject(users);
@@ -16,7 +16,7 @@ public class UserDatabase {
         }
     }
 
-    // Dosyadan kullanıcı verilerini okuma
+    
     private static void loadUsers() {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(FILE_PATH))) {
             users = (HashMap<String, User>) ois.readObject();
@@ -25,17 +25,17 @@ public class UserDatabase {
         }
     }
 
-    // Kullanıcı ekleme
+   
     public static boolean addUser(User user) {
         if (users.containsKey(user.getUsername())) {
-            return false; // Kullanıcı adı zaten var
+            return false; 
         }
         users.put(user.getUsername(), user);
-        saveUsers(); // Kullanıcı eklendikten sonra veriyi kaydet
+        saveUsers(); 
         return true;
     }
 
-    // Kullanıcıyı doğrulama
+   
     public static boolean authenticate(String username, String password) {
         User user = users.get(username);
         return user != null && user.getPassword().equals(password);

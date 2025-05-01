@@ -3,14 +3,14 @@ package fikirvesahne;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private static final long serialVersionUID = 1L; // Serileştirme sürüm numarası, genellikle her sınıf için bir kez belirlenir
+	 private static final long serialVersionUID = 1L; 
 
     private String name;
     private String email;
     private String username;
     private String password;
 
-    // Constructor, getter ve setter metodları
+    
     public User(String name, String email, String username, String password) {
         this.name = name;
         this.email = email;
@@ -18,7 +18,7 @@ public class User implements Serializable {
         this.password = password;
     }
 
-    // Getter ve setter metodları
+    
     public String getName() {
         return name;
     }

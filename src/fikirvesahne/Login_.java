@@ -40,9 +40,7 @@ public class Login_ extends JFrame {
 	private JPasswordField passwordField;
 	private JPasswordField password_kayit;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -56,9 +54,7 @@ public class Login_ extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Login_() {
 		setBackground(new Color(240, 247, 255));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
