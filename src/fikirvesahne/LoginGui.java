@@ -86,14 +86,9 @@ public class LoginGui extends JFrame {
 		lblNewLabel_2_1.setBounds(154, 443, 256, 16);
 		contentPane.add(lblNewLabel_2_1);
 		
-		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("/Users/suha/Downloads/ChatGPT Image 22 Nis 2025 18_19_04-2.png"));
-		lblNewLabel.setBounds(146, 0, 100, 100);
-		contentPane.add(lblNewLabel);
-		
 		JLabel lblNewLabel_3 = new JLabel("New label");
-		lblNewLabel_3.setIcon(new ImageIcon("/Users/suha/Downloads/IMG_0335-2.jpg"));
-		lblNewLabel_3.setBounds(36, 81, 307, 247);
+		lblNewLabel_3.setIcon(new ImageIcon("/Users/suha/Downloads/ChatGPT Image 22 Nis 2025 12_44_52-2.png"));
+		lblNewLabel_3.setBounds(67, 0, 307, 369);
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel setting = new JLabel("");
