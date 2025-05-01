@@ -90,17 +90,17 @@ public class tonightgui extends JFrame {
 		panel.setLayout(null);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("/Users/suha/Downloads/ab67616d0000b273f8278fed048f38a3c5889caa-2.jpeg"));
+		lblNewLabel_2.setIcon(new ImageIcon("resources/ab67616d0000b273f8278fed048f38a3c5889caa-2.jpeg"));
 		lblNewLabel_2.setBounds(6, 18, 120, 115);
 		panel.add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_2_1 = new JLabel("New label");
-		lblNewLabel_2_1.setIcon(new ImageIcon("/Users/suha/Downloads/yuzlesme-digital-2.jpg"));
+		lblNewLabel_2_1.setIcon(new ImageIcon("resources/yuzlesme-digital-2.jpg"));
 		lblNewLabel_2_1.setBounds(138, 27, 101, 98);
 		panel.add(lblNewLabel_2_1);
 		
 		JLabel lblNewLabel_2_2 = new JLabel("New label");
-		lblNewLabel_2_2.setIcon(new ImageIcon("/Users/suha/Downloads/e9b1c5172088549.647900f750927-3-2.jpg"));
+		lblNewLabel_2_2.setIcon(new ImageIcon("resources/e9b1c5172088549.647900f750927-3-2.jpg"));
 		lblNewLabel_2_2.setBounds(283, 18, 101, 107);
 		panel.add(lblNewLabel_2_2);
 		
@@ -121,7 +121,7 @@ public class tonightgui extends JFrame {
 		Anaekran.add(panel_1_2_4);
 		
 		JLabel lblNewLabel_3_2_4 = new JLabel("");
-		lblNewLabel_3_2_4.setIcon(new ImageIcon("/Users/suha/Downloads/yuzlesme-digital-2.jpg"));
+		lblNewLabel_3_2_4.setIcon(new ImageIcon("resources/yuzlesme-digital-2.jpg"));
 		lblNewLabel_3_2_4.setBounds(6, 6, 82, 60);
 		panel_1_2_4.add(lblNewLabel_3_2_4);
 		
@@ -138,7 +138,7 @@ public class tonightgui extends JFrame {
 		panel_1_2_4.add(lblNewLabel_1_6_2_4);
 		
 		JLabel favori2 = new JLabel("");
-		favori2.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori2.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori2.setBounds(356, 28, 16, 16);
 		panel_1_2_4.add(favori2);
 		favori2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -153,7 +153,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/yuzlesme-digital-2.jpg"));
+		        img.setIcon(new ImageIcon("resources/yuzlesme-digital-2.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -186,7 +186,7 @@ public class tonightgui extends JFrame {
 		Anaekran.add(panel_1_5);
 		
 		JLabel lblNewLabel_3_5 = new JLabel("");
-		lblNewLabel_3_5.setIcon(new ImageIcon("/Users/suha/Downloads/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
+		lblNewLabel_3_5.setIcon(new ImageIcon("resources/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
 		lblNewLabel_3_5.setBounds(6, 6, 82, 60);
 		panel_1_5.add(lblNewLabel_3_5);
 		
@@ -203,7 +203,7 @@ public class tonightgui extends JFrame {
 		panel_1_5.add(lblNewLabel_1_6_5);
 		
 		JLabel favori1 = new JLabel("New label");
-		favori1.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori1.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori1.setBounds(356, 28, 16, 16);
 		panel_1_5.add(favori1);
 		favori1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -218,7 +218,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
+		        img.setIcon(new ImageIcon("resources/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -250,7 +250,7 @@ public class tonightgui extends JFrame {
 		Anaekran.add(panel_1_2_3_1);
 		
 		JLabel lblNewLabel_3_2_3_1 = new JLabel("");
-		lblNewLabel_3_2_3_1.setIcon(new ImageIcon("/Users/suha/Downloads/61D95E00-D653-429D-B936-CB9BCAC374F0.JPG"));
+		lblNewLabel_3_2_3_1.setIcon(new ImageIcon("resources/61D95E00-D653-429D-B936-CB9BCAC374F0.JPG"));
 		lblNewLabel_3_2_3_1.setBounds(6, 6, 82, 77);
 		panel_1_2_3_1.add(lblNewLabel_3_2_3_1);
 		
@@ -267,7 +267,7 @@ public class tonightgui extends JFrame {
 		panel_1_2_3_1.add(lblNewLabel_1_6_2_3_1);
 		
 		JLabel favori12 = new JLabel("");
-		favori12.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori12.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori12.setBounds(356, 28, 16, 16);
 		panel_1_2_3_1.add(favori12);
 		favori12.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -282,7 +282,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/61D95E00-D653-429D-B936-CB9BCAC374F0.JPG"));
+		        img.setIcon(new ImageIcon("resources/61D95E00-D653-429D-B936-CB9BCAC374F0.JPG"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -326,7 +326,7 @@ public class tonightgui extends JFrame {
 		Comedy.add(panel_1);
 		
 		JLabel lblNewLabel_3 = new JLabel("");
-		lblNewLabel_3.setIcon(new ImageIcon("/Users/suha/Downloads/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
+		lblNewLabel_3.setIcon(new ImageIcon("resources/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
 		lblNewLabel_3.setBounds(6, 6, 82, 60);
 		panel_1.add(lblNewLabel_3);
 		
@@ -343,7 +343,7 @@ public class tonightgui extends JFrame {
 		panel_1.add(lblNewLabel_1_6);
 		
 		JLabel favori3 = new JLabel("New label");
-		favori3.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori3.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori3.setBounds(356, 28, 16, 16);
 		panel_1.add(favori3);
 		favori3.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -358,7 +358,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
+		        img.setIcon(new ImageIcon("resources/tuzbiber-stand-up-20241311157241ced9360644e4386a6d5fb83b04aaee8-2.png"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -391,12 +391,12 @@ public class tonightgui extends JFrame {
 		Comedy.add(panel_1_1);
 		
 		JLabel lblNewLabel_3_1 = new JLabel("New label");
-		lblNewLabel_3_1.setIcon(new ImageIcon("/Users/suha/Downloads/MV5BOTBlNjE0MzItZTYxMi00NDU4LTljNTctYzM5MDE4MGViNjFhXkEyXkFqcGc._V1_.jpg"));
+		lblNewLabel_3_1.setIcon(new ImageIcon("resources/MV5BOTBlNjE0MzItZTYxMi00NDU4LTljNTctYzM5MDE4MGViNjFhXkEyXkFqcGc._V1_.jpg"));
 		lblNewLabel_3_1.setBounds(-11, 6, 85, 66);
 		panel_1_1.add(lblNewLabel_3_1);
 		
 		JLabel favori4 = new JLabel("New label");
-		favori4.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori4.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori4.setBounds(356, 28, 16, 16);
 		panel_1_1.add(favori4);
 		favori4.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -411,7 +411,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/MV5BOTBlNjE0MzItZTYxMi00NDU4LTljNTctYzM5MDE4MGViNjFhXkEyXkFqcGc._V1_.jpg"));
+		        img.setIcon(new ImageIcon("resources/MV5BOTBlNjE0MzItZTYxMi00NDU4LTljNTctYzM5MDE4MGViNjFhXkEyXkFqcGc._V1_.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -456,12 +456,12 @@ public class tonightgui extends JFrame {
 		Comedy.add(panel_1_1_1);
 		
 		JLabel lblNewLabel_3_1_1 = new JLabel("New label");
-		lblNewLabel_3_1_1.setIcon(new ImageIcon("/Users/suha/Downloads/301726235_510230674438273_2624799761498581254_n-3.jpg"));
+		lblNewLabel_3_1_1.setIcon(new ImageIcon("resources/301726235_510230674438273_2624799761498581254_n-3.jpg"));
 		lblNewLabel_3_1_1.setBounds(0, 0, 74, 72);
 		panel_1_1_1.add(lblNewLabel_3_1_1);
 		
 		JLabel favori5 = new JLabel("New label");
-		favori5.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori5.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori5.setBounds(356, 28, 16, 16);
 		panel_1_1_1.add(favori5);
 		favori5.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -476,7 +476,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/301726235_510230674438273_2624799761498581254_n-3.jpg"));
+		        img.setIcon(new ImageIcon("resources/301726235_510230674438273_2624799761498581254_n-3.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -529,7 +529,7 @@ public class tonightgui extends JFrame {
 		Culture.add(panel_1_2);
 		
 		JLabel lblNewLabel_3_2 = new JLabel("");
-		lblNewLabel_3_2.setIcon(new ImageIcon("/Users/suha/Downloads/yuzlesme-digital-2.jpg"));
+		lblNewLabel_3_2.setIcon(new ImageIcon("resources/yuzlesme-digital-2.jpg"));
 		lblNewLabel_3_2.setBounds(6, 6, 82, 60);
 		panel_1_2.add(lblNewLabel_3_2);
 		
@@ -546,7 +546,7 @@ public class tonightgui extends JFrame {
 		panel_1_2.add(lblNewLabel_1_6_2);
 		
 		JLabel favori6 = new JLabel("");
-		favori6.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori6.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori6.setBounds(356, 28, 16, 16);
 		panel_1_2.add(favori6);
 		favori6.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -561,7 +561,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/yuzlesme-digital-2.jpg"));
+		        img.setIcon(new ImageIcon("resources/yuzlesme-digital-2.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -594,7 +594,7 @@ public class tonightgui extends JFrame {
 		Culture.add(panel_1_3_1);
 		
 		JLabel lblNewLabel_3_3_1 = new JLabel("");
-		lblNewLabel_3_3_1.setIcon(new ImageIcon("/Users/suha/Downloads/Refik-anadol-01-scaled-2.jpg"));
+		lblNewLabel_3_3_1.setIcon(new ImageIcon("resources/Refik-anadol-01-scaled-2.jpg"));
 		lblNewLabel_3_3_1.setBounds(6, 6, 82, 60);
 		panel_1_3_1.add(lblNewLabel_3_3_1);
 		
@@ -611,7 +611,7 @@ public class tonightgui extends JFrame {
 		panel_1_3_1.add(lblNewLabel_1_6_3_1);
 		
 		JLabel favori7 = new JLabel("New label");
-		favori7.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori7.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori7.setBounds(356, 28, 16, 16);
 		panel_1_3_1.add(favori7);
 		favori7.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -626,7 +626,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/Refik-anadol-01-scaled-2.jpg"));
+		        img.setIcon(new ImageIcon("resources/Refik-anadol-01-scaled-2.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -659,7 +659,7 @@ public class tonightgui extends JFrame {
 		Culture.add(panel_1_4);
 		
 		JLabel lblNewLabel_3_4 = new JLabel("");
-		lblNewLabel_3_4.setIcon(new ImageIcon("/Users/suha/Downloads/van-gogh-dijital-sergisi-acildi-uOqGwd2i-2.jpg"));
+		lblNewLabel_3_4.setIcon(new ImageIcon("resources/van-gogh-dijital-sergisi-acildi-uOqGwd2i-2.jpg"));
 		lblNewLabel_3_4.setBounds(6, 6, 82, 60);
 		panel_1_4.add(lblNewLabel_3_4);
 		
@@ -676,7 +676,7 @@ public class tonightgui extends JFrame {
 		panel_1_4.add(lblNewLabel_1_6_4);
 		
 		JLabel favori8 = new JLabel("New label");
-		favori8.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori8.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori8.setBounds(356, 28, 16, 16);
 		panel_1_4.add(favori8);
 		favori8.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -691,7 +691,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/van-gogh-dijital-sergisi-acildi-uOqGwd2i-2.jpg"));
+		        img.setIcon(new ImageIcon("resources/van-gogh-dijital-sergisi-acildi-uOqGwd2i-2.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -757,7 +757,7 @@ public class tonightgui extends JFrame {
 		Concert.add(panel_1_2_1);
 		
 		JLabel lblNewLabel_3_2_1 = new JLabel("");
-		lblNewLabel_3_2_1.setIcon(new ImageIcon("/Users/suha/Downloads/e9b1c5172088549.647900f750927-3-2.jpg"));
+		lblNewLabel_3_2_1.setIcon(new ImageIcon("resources/e9b1c5172088549.647900f750927-3-2.jpg"));
 		lblNewLabel_3_2_1.setBounds(6, 6, 82, 60);
 		panel_1_2_1.add(lblNewLabel_3_2_1);
 		
@@ -774,7 +774,7 @@ public class tonightgui extends JFrame {
 		panel_1_2_1.add(lblNewLabel_1_6_2_1);
 		
 		JLabel favori9 = new JLabel("");
-		favori9.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori9.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori9.setBounds(356, 28, 16, 16);
 		panel_1_2_1.add(favori9);
 		favori9.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -789,7 +789,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/e9b1c5172088549.647900f750927-3-2.jpg"));
+		        img.setIcon(new ImageIcon("resources/e9b1c5172088549.647900f750927-3-2.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -822,7 +822,7 @@ public class tonightgui extends JFrame {
 		Concert.add(panel_1_2_2);
 		
 		JLabel lblNewLabel_3_2_2 = new JLabel("");
-		lblNewLabel_3_2_2.setIcon(new ImageIcon("/Users/suha/Downloads/brek-yangin-konseri-72052-2.jpg"));
+		lblNewLabel_3_2_2.setIcon(new ImageIcon("resources/brek-yangin-konseri-72052-2.jpg"));
 		lblNewLabel_3_2_2.setBounds(6, 6, 82, 60);
 		panel_1_2_2.add(lblNewLabel_3_2_2);
 		
@@ -839,7 +839,7 @@ public class tonightgui extends JFrame {
 		panel_1_2_2.add(lblNewLabel_1_6_2_2);
 		
 		JLabel favori10 = new JLabel("");
-		favori10.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori10.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori10.setBounds(356, 28, 16, 16);
 		panel_1_2_2.add(favori10);
 		favori10.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -854,7 +854,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/brek-yangin-konseri-72052-2.jpg"));
+		        img.setIcon(new ImageIcon("resources/brek-yangin-konseri-72052-2.jpg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -887,7 +887,7 @@ public class tonightgui extends JFrame {
 		Concert.add(panel_1_2_3);
 		
 		JLabel lblNewLabel_3_2_3 = new JLabel("");
-		lblNewLabel_3_2_3.setIcon(new ImageIcon("/Users/suha/Downloads/ab67616d0000b273f8278fed048f38a3c5889caa-2.jpeg"));
+		lblNewLabel_3_2_3.setIcon(new ImageIcon("resources/ab67616d0000b273f8278fed048f38a3c5889caa-2.jpeg"));
 		lblNewLabel_3_2_3.setBounds(6, 6, 82, 77);
 		panel_1_2_3.add(lblNewLabel_3_2_3);
 		
@@ -904,7 +904,7 @@ public class tonightgui extends JFrame {
 		panel_1_2_3.add(lblNewLabel_1_6_2_3);
 		
 		JLabel favori11 = new JLabel("");
-		favori11.setIcon(new ImageIcon("/Users/suha/Downloads/heart-2.png"));
+		favori11.setIcon(new ImageIcon("resources/heart-2.png"));
 		favori11.setBounds(356, 28, 16, 16);
 		panel_1_2_3.add(favori11);
 		favori11.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -919,7 +919,7 @@ public class tonightgui extends JFrame {
 		        copy.setAlignmentX(Component.LEFT_ALIGNMENT); 
 
 		        JLabel img = new JLabel();
-		        img.setIcon(new ImageIcon("/Users/suha/Downloads/ab67616d0000b273f8278fed048f38a3c5889caa-2.jpeg"));
+		        img.setIcon(new ImageIcon("resources/ab67616d0000b273f8278fed048f38a3c5889caa-2.jpeg"));
 		        img.setBounds(6, 6, 82, 60);
 		        copy.add(img);
 
@@ -948,27 +948,27 @@ public class tonightgui extends JFrame {
 		
 
 		// Iconlar (png)
-		JLabel anaekranIcon = new JLabel(new ImageIcon("/Users/suha/Downloads/home-3.png"));
+		JLabel anaekranIcon = new JLabel(new ImageIcon("resources/home-3.png"));
 		anaekranIcon.setBounds(16, 42, 37, 32);
 		addLabelAction(anaekranIcon, "anaekran");
 		contentPane.add(anaekranIcon);
 
-		JLabel comedyIcon = new JLabel(new ImageIcon("/Users/suha/Downloads/stand-up.png"));
+		JLabel comedyIcon = new JLabel(new ImageIcon("resources/stand-up.png"));
 		comedyIcon.setBounds(96, 42, 37, 32);
 		addLabelAction(comedyIcon, "comedy");
 		contentPane.add(comedyIcon);
 
-		JLabel favoriIcon = new JLabel(new ImageIcon("/Users/suha/Downloads/heart.png"));
+		JLabel favoriIcon = new JLabel(new ImageIcon("resources/heart.png"));
 		favoriIcon.setBounds(181, 42, 37, 43);
 		addLabelAction(favoriIcon, "favori");
 		contentPane.add(favoriIcon);
 
-		JLabel cultureIcon = new JLabel(new ImageIcon("/Users/suha/Downloads/inca-3.png"));
+		JLabel cultureIcon = new JLabel(new ImageIcon("resources/inca-3.png"));
 		cultureIcon.setBounds(265, 42, 37, 32);
 		addLabelAction(cultureIcon, "culture");
 		contentPane.add(cultureIcon);
 
-		JLabel concertIcon = new JLabel(new ImageIcon("/Users/suha/Downloads/hand.png"));
+		JLabel concertIcon = new JLabel(new ImageIcon("resources/hand.png"));
 		concertIcon.setBounds(344, 42, 37, 32);
 		addLabelAction(concertIcon, "concert");
 		contentPane.add(concertIcon);

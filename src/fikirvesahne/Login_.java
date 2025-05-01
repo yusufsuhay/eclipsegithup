@@ -69,7 +69,7 @@ public class Login_ extends JFrame {
 		
 		lblNewLabel = new JLabel("");
 		lblNewLabel.setBounds(145, 0, 100, 100);
-		lblNewLabel.setIcon(new ImageIcon("/Users/suha/Downloads/ChatGPT Image 22 Nis 2025 18_19_04-2.png"));
+		lblNewLabel.setIcon(new ImageIcon("resources/ChatGPT Image 22 Nis 2025 18_19_04-2.png"));
 		contentPane.add(lblNewLabel);
 		
 		w_tabpane = new JTabbedPane(JTabbedPane.TOP);
@@ -99,7 +99,7 @@ public class Login_ extends JFrame {
 		
 		
 		btnNewButton = new JButton("Login");
-		btnNewButton.setIcon(new ImageIcon("/Users/suha/Downloads/ChatGPT Image 22 Nis 2025 18_26_53-2.png"));
+		btnNewButton.setIcon(new ImageIcon("resources/ChatGPT Image 22 Nis 2025 18_26_53-2.png"));
 		btnNewButton.addActionListener(new ActionListener() {
 		    public void actionPerformed(ActionEvent e) {
 		        String username = usernametextfield.getText();
@@ -212,7 +212,7 @@ public class Login_ extends JFrame {
 
 
 			
-		btnsignup.setIcon(new ImageIcon("/Users/suha/Downloads/ChatGPT Image 22 Nis 2025 18_26_53-2.png"));
+		btnsignup.setIcon(new ImageIcon("resources/ChatGPT Image 22 Nis 2025 18_26_53-2.png"));
 		btnsignup.setFont(new Font("Hiragino Maru Gothic ProN", Font.BOLD, 13));
 		btnsignup.setBackground(Color.BLACK);
 		btnsignup.setBounds(136, 131, 86, 99);
@@ -225,7 +225,7 @@ public class Login_ extends JFrame {
 		password_kayit.setForeground(Color.WHITE);
 		
 		lblNewLabel_2 = new JLabel("New label");
-		lblNewLabel_2.setIcon(new ImageIcon("/Users/suha/Downloads/IMG_0335-2.jpg"));
+		lblNewLabel_2.setIcon(new ImageIcon("resources/IMG_0335-2.jpg"));
 		lblNewLabel_2.setBounds(38, 79, 338, 247);
 		contentPane.add(lblNewLabel_2);
 		

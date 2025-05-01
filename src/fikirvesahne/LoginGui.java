@@ -48,7 +48,7 @@ public class LoginGui extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton login_signup = new JButton("");
-		login_signup.setIcon(new ImageIcon("/Users/suha/Downloads/vinyl_login_signup_100x100_hq.png"));
+		login_signup.setIcon(new ImageIcon("resources/vinyl_login_signup_100x100_hq.png"));
 		login_signup.setBackground(new Color(0, 0, 0));
 		login_signup.setForeground(new Color(0, 0, 0));
 		login_signup.setFont(new Font("Helvetica", Font.PLAIN, 13));
@@ -87,12 +87,12 @@ public class LoginGui extends JFrame {
 		contentPane.add(lblNewLabel_2_1);
 		
 		JLabel lblNewLabel_3 = new JLabel("New label");
-		lblNewLabel_3.setIcon(new ImageIcon("/Users/suha/Downloads/ChatGPT Image 22 Nis 2025 12_44_52-2.png"));
+		lblNewLabel_3.setIcon(new ImageIcon("resources/ChatGPT Image 22 Nis 2025 12_44_52-2.png"));
 		lblNewLabel_3.setBounds(67, 0, 307, 369);
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel setting = new JLabel("");
-		setting.setIcon(new ImageIcon("/Users/suha/Downloads/settings.png"));
+		setting.setIcon(new ImageIcon("resources/settings.png"));
 		setting.setBounds(370, 6, 24, 24);
 		contentPane.add(setting);
 		
